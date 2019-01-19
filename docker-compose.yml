@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+    php-fpm:
+      build: docker/php
+      container_name: kata-php
+      working_dir: /kata
+      volumes:
+        - .:/kata

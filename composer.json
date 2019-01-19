@@ -1,0 +1,31 @@
+{
+    "name": "kata/php-skeleton",
+    "description": "Kata PHP skeleton",
+    "type": "library",
+    "keywords": ["php", "kata", "skeleton"],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Nacho Salvador",
+            "email": "nachosalvador83@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/nachosalvador/kata-php-skeleton",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^5.1",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kata\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kata\\Tests\\": "tests/"
+        }
+    }
+}

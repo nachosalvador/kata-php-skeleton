@@ -1,33 +1,47 @@
 # Kata PHP Skeleton
 
 Dockerized PHP skeleton for coding katas.
+This skeleton for katas could be used with local or docker environment.
 
-## Install
+## Local environment
 
-* Construct docker container:
+### Requirements
 
-``` bash
-$ docker-compose up
-```
+* PHP 7.1
+* [Composer](https://getcomposer.org/download/)
 
-* Access to docker container:
+### Installation
 
-``` bash
-$ docker exec -it kata-php bash
-```
+Install project dependencies:
 
-* Install dependencies:
-
-``` bash
+```bash
 $ composer install
 ```
 
-## Testing
+### Testing
 
-* Launch tests from container:
-
-``` bash
+```bash
 $ vendor/bin/phpunit
+```
+
+## Docker environment
+
+### Requirements
+
+* [Docker](https://docs.docker.com/install/)
+
+### Installation
+
+Create docker image and install project dependencies:
+
+```bash
+$ make kata-build
+```
+
+### Testing
+
+```bash
+$ make kata-tests
 ```
 
 ## License

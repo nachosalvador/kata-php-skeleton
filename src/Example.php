@@ -9,9 +9,9 @@ namespace Kata;
  */
 class Example
 {
-  /**
-   * @return bool
-   */
+    /**
+     * @return bool
+     */
     public function method(): bool
     {
         return true;

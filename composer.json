@@ -6,8 +6,12 @@
     "license": "GPL-3.0-or-later",
     "authors": [
         {
-            "name": "Pablo Dobón",
+            "name": "Nacho Salvador",
             "email": "nachosalvador83@gmail.com"
+        },
+        {
+            "name": "Pablo Dobón",
+            "email": "dbn000@gmail.com"
         }
     ],
     "homepage": "https://github.com/dbn000/kata-php-skeleton",

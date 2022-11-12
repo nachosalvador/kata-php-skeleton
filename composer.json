@@ -7,16 +7,26 @@
     "authors": [
         {
             "name": "Nacho Salvador",
-            "email": "nachosalvador83@gmail.com"
+            "email": "nachosalvador83@gmail.com",
+            "homepage": "https://github.com/nachosalvador/kata-php-skeleton"
+        },
+        {
+            "name": "Pablo Dobón",
+            "email": "dbn000@gmail.com",
+            "homepage": "https://github.com/dbn000/kata-php-skeleton"
         }
     ],
-    "homepage": "https://github.com/nachosalvador/kata-php-skeleton",
     "require": {
-        "php": ">=7.1"
+        "php": ">=8.1"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/Leopandro/dektrium"
+        }
+    ],
     "require-dev": {
-        "phpspec/phpspec": "^5.1",
-        "phpunit/phpunit": "^7.5"
+        "phpunit/phpunit": "^9"
     },
     "autoload": {
         "psr-4": {

@@ -7,7 +7,7 @@ This skeleton for katas could be used with local or docker environment.
 
 ### Requirements
 
-* PHP 7.1
+* PHP 8.1
 * [Composer](https://getcomposer.org/download/)
 
 ### Installation
